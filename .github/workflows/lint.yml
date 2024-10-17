@@ -24,7 +24,7 @@ jobs:
           node-version: 18.x
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Lint
         run: |
