@@ -71,7 +71,7 @@ After building successfully, the action will publish your release artifacts. By 
 
 You can configure the action further with the following options:
 
-- `package_root`: Directory where NPM/Yarn commands should be run (default: `"."`)
+- `package_root`: Directory where NPM/Pnpm commands should be run (default: `"."`)
 - `build_script_name`: Name of the optional NPM build script which is executed before `electron-builder` (default: `"build"`)
 - `skip_build`: Whether the action should execute the NPM build script before running `electron-builder`
 - `use_vue_cli`: Whether to run `electron-builder` using the [Vue CLI plugin](https://nklayman.github.io/vue-cli-plugin-electron-builder) instead of calling the command directly

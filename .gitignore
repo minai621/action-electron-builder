@@ -1,7 +1,6 @@
 node_modules/
 
 # Lockfiles in test projects
-test/**/yarn.lock
 test/**/dist_electron
 
 # Generated files in test projects
