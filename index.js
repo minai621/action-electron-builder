@@ -106,7 +106,7 @@ const runAction = () => {
 	setEnv("ADBLOCK", true);
 
 	log(`Installing dependencies using ${useNpm ? "NPM" : "Pnpm"}…`);
-	run(useNpm ? "npm install" : "Pnpm", pkgRoot);
+	run(useNpm ? "npm install" : "pnpm install", pkgRoot);
 
 	// Run NPM build script if it exists
 	if (skipBuild) {
